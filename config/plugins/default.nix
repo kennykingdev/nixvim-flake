@@ -1,6 +1,20 @@
 {
   imports = [
-    ./colorscheme.nix
-    ./mini.nix
+    ./code/cmp
+    ./code/conform
+    ./code/gitsigns
+    ./code/lsp
+    ./code/schemastore
+    ./editor/illuminate
+    ./editor/treesitter
+    ./editor/undotree
+    ./utils/lz-n
+    ./utils/mini
+    ./utils/smart-splits
+    ./utils/snacks
+    ./utils/telescope
+    ./utils/which-key
+    ./ui/lualine
+    ./ui/theme
   ];
 }
